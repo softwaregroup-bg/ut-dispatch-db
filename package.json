@@ -4,36 +4,36 @@
     "description": "UT distpatch db",
     "main": "index.js",
     "devDependencies": {
-      "ut-tools": "^6.4.7"
+        "ut-tools": "^6.4.7"
     },
     "scripts": {
-      "lint": "ut-lint .",
-      "release": "ut-release",
-      "changelog": "ut-changelog",
-      "check": "ut-check",
-      "cover": "ut-cover",
-      "lint-js": "ut-lint-js .",
-      "postpublish": "ut-postpublish",
-      "postversion": "ut-postversion",
-      "precommit": "ut-precommit",
-      "prepublish": "ut-prepublish",
-      "prepush": "ut-prepush",
-      "pretest": "ut-pretest",
-      "preversion": "ut-preversion",
-      "test": "ut-test",
-      "version": "ut-version",
-      "jenkins": "ut-jenkins",
-      "gitlab": "ut-gitlab",
-      "precover": "ut-precover"
+        "lint": "ut-lint .",
+        "release": "ut-release",
+        "changelog": "ut-changelog",
+        "check": "ut-check",
+        "cover": "ut-cover",
+        "lint-js": "ut-lint-js .",
+        "postpublish": "ut-postpublish",
+        "postversion": "ut-postversion",
+        "precommit": "ut-precommit",
+        "prepublish": "ut-prepublish",
+        "prepush": "ut-prepush",
+        "pretest": "ut-pretest",
+        "preversion": "ut-preversion",
+        "test": "ut-test",
+        "version": "ut-version",
+        "jenkins": "ut-jenkins",
+        "gitlab": "ut-gitlab",
+        "precover": "ut-precover"
     },
     "repository": {
-      "type": "git",
-      "url": "git@github.com:softwaregroup-bg/ut-unittest.git"
+        "type": "git",
+        "url": "git@github.com:softwaregroup-bg/ut-unittest.git"
     },
     "author": "",
     "license": "Apache-2.0",
     "bugs": {
-      "url": "https://github.com/softwaregroup-bg/ut-unittest/issues"
+        "url": "https://github.com/softwaregroup-bg/ut-unittest/issues"
     },
     "homepage": "https://github.com/softwaregroup-bg/ut-unittest#readme"
-  }
+}
