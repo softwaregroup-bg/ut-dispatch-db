@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "UT distpatch db",
     "main": "index.js",
+    "peerDependencies": {
+        "ut-port-script": "^6.0.1"
+    },
     "devDependencies": {
         "ut-tools": "^6.4.7"
     },
