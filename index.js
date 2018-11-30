@@ -1,10 +1,11 @@
-module.exports = function(modules, destination = 'db') {
-    const dispatchToDB = new RegExp('^(' + modules.join('|') + ')\\.');
+module.exports = function(namespaces, imports = [], destination = 'db') {
+    const dispatchToDB = new RegExp(namespaces.map(n => `(^${n}\\.)`).join('|'));
     return (...params) => ({
-        [modules[0] + 'Dispatch']: class extends require('ut-port-script')(...params) {
+        [namespaces[0] + 'Dispatch']: class extends require('ut-port-script')(...params) {
             get defaults() {
                 return {
-                    imports: modules,
+                    namespace: namespaces,
+                    imports,
                     concurrency: 200
                 };
             }
@@ -20,5 +21,5 @@ module.exports = function(modules, destination = 'db') {
                 };
             }
         }
-    }[modules[0] + 'Dispatch']);
+    }[namespaces[0] + 'Dispatch']);
 };
