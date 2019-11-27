@@ -11,6 +11,10 @@ module.exports = function(namespaces, imports = [], destination = 'db') {
             }
             handlers() {
                 return {
+                    ...namespaces.reduce((prev, namespace) => ({
+                        ...prev,
+                        [`${namespace}.service.get`]: () => params[0].utMethod.pkg
+                    }), {}),
                     exec: (msg, $meta) => {
                         if ($meta.method && dispatchToDB.test($meta.method)) {
                             return this.bus.importMethod(destination + '/' + $meta.method)(msg, $meta);
