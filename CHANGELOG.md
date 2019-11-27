@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/softwaregroup-bg/ut-dispatch-db/compare/v1.1.2...v1.2.0) (2019-11-27)
+
+
+### Features
+
+* return namespace metadata ([82c04c0](https://github.com/softwaregroup-bg/ut-dispatch-db/commit/82c04c0))
+
+
+
 ## [1.1.2](https://github.com/softwaregroup-bg/ut-dispatch-db/compare/v1.1.1...v1.1.2) (2019-10-01)
 
 
