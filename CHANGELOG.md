@@ -1,3 +1,7 @@
+## [1.2.1](https://github.com/softwaregroup-bg/ut-dispatch-db/compare/v1.2.0...v1.2.1) (2020-01-17)
+
+
+
 # [1.2.0](https://github.com/softwaregroup-bg/ut-dispatch-db/compare/v1.1.2...v1.2.0) (2019-11-27)
 
 
