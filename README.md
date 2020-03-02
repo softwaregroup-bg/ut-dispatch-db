@@ -1,3 +1,3 @@
 # ut-dispatch-db
 
-Call database method directly
+Call handlers before stored procedures

@@ -1,14 +1,20 @@
-module.exports = function(namespaces, imports = [], destination = 'db') {
+module.exports = function(namespaces, imports = [], validations = [], destination = 'db') {
     const dispatchToDB = new RegExp(namespaces.map(n => `(^${n}\\.)`).join('|'));
+    if (typeof validations === 'string') { // backwards compatibility
+        destination = validations;
+        validations = undefined;
+    }
     return (...params) => ({
         [namespaces[0] + 'Dispatch']: class extends require('ut-port-script')(...params) {
             get defaults() {
                 return {
                     namespace: namespaces,
                     imports,
+                    validations,
                     concurrency: 200
                 };
             }
+
             handlers() {
                 return {
                     ...namespaces.reduce((prev, namespace) => ({
