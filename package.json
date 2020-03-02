@@ -1,6 +1,6 @@
 {
     "name": "ut-dispatch-db",
-    "version": "1.2.1",
+    "version": "1.3.0",
     "description": "UT distpatch db",
     "main": "index.js",
     "peerDependencies": {

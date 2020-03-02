@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/softwaregroup-bg/ut-dispatch-db/compare/v1.2.1...v1.3.0) (2020-03-02)
+
+
+### Features
+
+* accept validations parameter ([122e253](https://github.com/softwaregroup-bg/ut-dispatch-db/commit/122e253af5d47d1a0907422d4523ac4b11a225b3))
+
+
+
 ## [1.2.1](https://github.com/softwaregroup-bg/ut-dispatch-db/compare/v1.2.0...v1.2.1) (2020-01-17)
 
 
