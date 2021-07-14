@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/softwaregroup-bg/ut-dispatch-db/compare/v1.3.0...v1.4.0) (2021-07-14)
+
+
+### Features
+
+* handle outcome [UTCORE-121] ([060b598](https://github.com/softwaregroup-bg/ut-dispatch-db/commit/060b598e96896f11f2afb0a5ed0e8da7f500236a))
+
+
+
 # [1.3.0](https://github.com/softwaregroup-bg/ut-dispatch-db/compare/v1.2.1...v1.3.0) (2020-03-02)
 
 
