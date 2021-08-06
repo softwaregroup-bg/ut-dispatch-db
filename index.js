@@ -43,6 +43,7 @@ module.exports = function(namespaces, imports = [], validations = [], destinatio
                     receive(msg, $meta) {
                         if (msg && msg.$outcome) {
                             this.outcome(msg.$outcome, $meta);
+                            if (Object.keys(msg).length === 1) return [];
                             delete msg.$outcome;
                         }
                         return msg;
