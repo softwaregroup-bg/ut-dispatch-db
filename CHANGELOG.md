@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/softwaregroup-bg/ut-dispatch-db/compare/v1.4.0...v1.4.1) (2021-08-06)
+
+
+### Bug Fixes
+
+* return empty array in case there are no resultsets #UTCORE-121 ([#3](https://github.com/softwaregroup-bg/ut-dispatch-db/issues/3)) ([3b61f74](https://github.com/softwaregroup-bg/ut-dispatch-db/commit/3b61f743bc8ed038718daa98ff5e5aba56af78e6)), closes [#UTCORE-121](https://github.com/softwaregroup-bg/ut-dispatch-db/issues/UTCORE-121)
+
+
+
 # [1.4.0](https://github.com/softwaregroup-bg/ut-dispatch-db/compare/v1.3.0...v1.4.0) (2021-07-14)
 
 
