@@ -7,8 +7,7 @@
         "ut-port-script": "^7.0.1"
     },
     "devDependencies": {
-        "tap": "^12.7.0",
-        "ut-tools": "^6.30.5"
+        "tap": "^16.3.0"
     },
     "scripts": {
         "lint": "ut-lint .",
