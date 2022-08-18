@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/softwaregroup-bg/ut-dispatch-db/compare/v1.4.1...v1.5.0) (2022-08-18)
+
+
+### Features
+
+* config.import #UTCORE-121 ([#4](https://github.com/softwaregroup-bg/ut-dispatch-db/issues/4)) ([56516c1](https://github.com/softwaregroup-bg/ut-dispatch-db/commit/56516c1fde3dfa1dea366cf41286a5771e9e9606)), closes [#UTCORE-121](https://github.com/softwaregroup-bg/ut-dispatch-db/issues/UTCORE-121) [#UTCORE-121](https://github.com/softwaregroup-bg/ut-dispatch-db/issues/UTCORE-121) [#UTCORE-121](https://github.com/softwaregroup-bg/ut-dispatch-db/issues/UTCORE-121)
+
+
+
 ## [1.4.1](https://github.com/softwaregroup-bg/ut-dispatch-db/compare/v1.4.0...v1.4.1) (2021-08-06)
 
 
